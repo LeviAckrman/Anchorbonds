@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relationship &amp; Confidence Coaching — Online Workshop</title>
+<meta name="description" content="A relationship coaching platform helping you understand attraction, communicate with confidence, and build healthier connections. Join the ₹99 online workshop.">
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Relationship & Confidence Coaching — Online Workshop">
+<meta property="og:description" content="Learn the psychology of attraction, communication and healthy relationships. Join the ₹99 online workshop, How to Stop Getting Friend-Zoned.">
+<meta property="og:image" content="https://example.com/og-image.jpg">
+<meta property="og:url" content="https://example.com">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- ================= ANALYTICS PLACEHOLDERS =================
+Replace with your real IDs before launch.
+
+Google Analytics:
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXX');
+</script>
+
+Meta Pixel:
+<script>
+  !function(f,b,e,v,n,t,s){...fbq init...}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', 'YOUR_PIXEL_ID');
+  fbq('track', 'PageView');
+</script>
+============================================================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ============ CONFIG-DRIVEN VISUAL TOKENS ============ */
+  :root{
+    --navy-950:#0c1224;
+    --navy-900:#101833;
+    --navy-800:#182246;
+    --navy-700:#232f57;
+    --navy-line: rgba(255,255,255,0.10);
+    --ivory:#f8f4ef;
+    --ivory-dim:#efe8df;
+    --ink:#1c2340;
+    --ink-soft:#4a5273;
+    --rose:#e2685b;
+    --rose-deep:#c34e42;
+    --rose-tint:#f7ded7;
+    --blush:#f3d6cb;
+    --white:#ffffff;
+
+    --font-display: "Fraunces", Georgia, serif;
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+    --radius-s: 10px;
+    --radius-m: 16px;
+    --radius-l: 26px;
+    --container: 1160px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+  }
+
+  body{
+    margin:0;
+    font-family:var(--font-body);
+    background:var(--ivory);
+    color:var(--ink);
+    line-height:1.6;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  img,svg{max-width:100%; display:block;}
+  a{color:inherit;}
+  button{font-family:inherit; cursor:pointer;}
+
+  h1,h2,h3,h4{
+    font-family:var(--font-display);
+    font-weight:600;
+    line-height:1.12;
+    margin:0 0 0.5em;
+    letter-spacing:-0.01em;
+  }
+  p{margin:0 0 1em;}
+
+  .wrap{max-width:var(--container); margin:0 auto; padding:0 24px;}
+  section{padding:96px 0;}
+  @media (max-width:720px){ section{padding:64px 0;} }
+
+  @media (max-width:480px){
+    .wrap{ padding:0 18px; }
+    .nav .wrap{ height:66px; }
+    .hero{ padding:56px 0 88px; }
+    .hero-ctas .btn, .final-cta-ctas .btn{ width:100%; }
+    .hero-ctas, .final-cta-ctas{ flex-direction:column; }
+    .price-card{ padding:26px 22px; }
+    .modal{ padding:28px 20px; }
+    .workshop-badge{ font-size:0.8rem; }
+  }
+
+  :focus-visible{
+    outline:2.5px solid var(--rose);
+    outline-offset:3px;
+    border-radius:4px;
+  }
+
+  /* ============ BUTTONS ============ */
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:15px 30px;
+    border-radius:999px;
+    font-weight:600;
+    font-size:0.98rem;
+    border:1.5px solid transparent;
+    text-decoration:none;
+    transition:transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease, border-color .18s ease;
+    white-space:nowrap;
+  }
+  .btn:active{ transform:translateY(1px); }
+  .btn-primary{
+    background:var(--rose);
+    color:var(--white);
+    box-shadow:0 10px 24px -10px rgba(226,104,91,0.65);
+  }
+  .btn-primary:hover{ background:var(--rose-deep); box-shadow:0 14px 28px -10px rgba(195,78,66,0.75); }
+
+  .btn-ghost-dark{
+    background:transparent;
+    border-color: rgba(255,255,255,0.35);
+    color:var(--white);
+  }
+  .btn-ghost-dark:hover{ border-color:#fff; background:rgba(255,255,255,0.08); }
+
+  .btn-ghost-light{
+    background:transparent;
+    border-color: rgba(28,35,64,0.25);
+    color:var(--ink);
+  }
+  .btn-ghost-light:hover{ border-color:var(--ink); background:rgba(28,35,64,0.05);}
+
+  .btn-whatsapp{
+    background:var(--navy-900);
+    color:var(--white);
+    border-color:var(--navy-900);
+  }
+  .btn-whatsapp:hover{ background:var(--navy-800); }
+
+  .btn-block{ width:100%; }
+
+  /* ============ NAV ============ */
+  .nav{
+    position:sticky; top:0; z-index:60;
+    background:rgba(12,18,36,0.86);
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid var(--navy-line);
+  }
+  .nav .wrap{
+    display:flex; align-items:center; justify-content:space-between;
+    height:76px;
+  }
+  .brand{
+    display:flex; align-items:center; gap:10px;
+    color:var(--white);
+    text-decoration:none;
+    font-family:var(--font-display);
+    font-size:1.4rem;
+    font-weight:600;
+  }
+  .nav-links{
+    display:flex; align-items:center; gap:34px;
+    list-style:none; margin:0; padding:0;
+  }
+  .nav-links a{
+    color:rgba(255,255,255,0.82);
+    text-decoration:none;
+    font-size:0.95rem;
+    font-weight:500;
+    transition:color .15s ease;
+  }
+  .nav-links a:hover{ color:#fff; }
+  .nav-cta{ display:flex; align-items:center; gap:14px; }
+  .nav-toggle{
+    display:none;
+    background:none; border:none; color:#fff;
+    padding:8px;
+    border-radius:8px;
+  }
+  .nav-toggle:hover{ background:rgba(255,255,255,0.08); }
+  .mobile-nav-panel{
+    display:none;
+    flex-direction:column;
+    gap:22px;
+    padding:22px 24px 26px;
+    background:var(--navy-950);
+    border-top:1px solid var(--navy-line);
+  }
+  .mobile-nav-panel.open{ display:flex; }
+  .mobile-nav-links{ list-style:none; margin:0; padding:0; display:grid; gap:4px; }
+  .mobile-nav-links a{
+    display:block;
+    color:rgba(255,255,255,0.88);
+    text-decoration:none;
+    font-size:1.05rem;
+    font-weight:500;
+    padding:12px 4px;
+    border-bottom:1px solid var(--navy-line);
+  }
+  .mobile-nav-ctas{ display:grid; gap:12px; }
+  @media (max-width:900px){
+    .nav-links{ display:none; }
+    .nav-cta{ display:none; }
+    .nav-toggle{ display:block; }
+  }
+  @media (min-width:901px){
+    .mobile-nav-panel{ display:none !important; }
+  }
+
+  /* ============ HERO ============ */
+  .hero{
+    background:
+      radial-gradient(760px 420px at 84% -10%, rgba(226,104,91,0.20), transparent 60%),
+      linear-gradient(180deg, var(--navy-950), var(--navy-900));
+    color:var(--white);
+    padding:88px 0 110px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero .wrap{
+    display:grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap:56px;
+    align-items:center;
+  }
+  .hero-eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:0.88rem; font-weight:500;
+    color:var(--blush);
+    margin-bottom:22px;
+  }
+  .hero-eyebrow .dot{width:6px; height:6px; border-radius:50%; background:var(--rose);}
+
+  .hero h1{
+    font-size:clamp(2.5rem, 3.6vw + 1.2rem, 4rem);
+    color:var(--white);
+    max-width:12.5ch;
+  }
+  .hero .lede{
+    color:rgba(255,255,255,0.78);
+    font-size:1.15rem;
+    max-width:46ch;
+    margin-bottom:34px;
+  }
+  .hero-ctas{ display:flex; flex-wrap:wrap; gap:14px; margin-bottom:38px; }
+
+  .hero-points{
+    display:flex; gap:26px; flex-wrap:wrap;
+    padding-top:26px;
+    border-top:1px solid var(--navy-line);
+  }
+  .hero-point{
+    display:flex; align-items:center; gap:9px;
+    font-size:0.92rem; color:rgba(255,255,255,0.8);
+  }
+  .hero-point svg{ width:18px; height:18px; color:var(--rose); flex-shrink:0; }
+
+  .hero-visual{ position:relative; }
+  .hero-illustration{
+    border-radius:var(--radius-l);
+    background: linear-gradient(160deg, #22305c, #101833 70%);
+    border:1px solid var(--navy-line);
+    padding:38px 30px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-illustration svg{ width:100%; height:auto; }
+  .hero-float-card{
+    position:absolute;
+    left:-18px; bottom:-26px;
+    background:var(--white);
+    color:var(--ink);
+    border-radius:var(--radius-m);
+    padding:18px 20px;
+    max-width:250px;
+    box-shadow:0 24px 48px -18px rgba(9,13,28,0.55);
+  }
+  .hero-float-card .k{
+    font-family:var(--font-display);
+    font-size:1.05rem;
+    display:block;
+    margin-bottom:4px;
+  }
+  .hero-float-card .v{ font-size:0.86rem; color:var(--ink-soft); }
+  @media (max-width:900px){
+    .hero .wrap{ grid-template-columns:1fr; }
+    .hero-visual{ order:-1; }
+    .hero-float-card{ position:static; margin-top:18px; max-width:none; }
+  }
+
+  /* entrance choreography — one deliberate moment */
+  .hero-eyebrow, .hero h1, .hero .lede, .hero-ctas, .hero-points, .hero-visual{
+    opacity:0; transform:translateY(14px);
+    animation: rise 0.7s cubic-bezier(.2,.7,.2,1) forwards;
+  }
+  .hero h1{ animation-delay:.08s; }
+  .hero .lede{ animation-delay:.16s; }
+  .hero-ctas{ animation-delay:.24s; }
+  .hero-points{ animation-delay:.32s; }
+  .hero-visual{ animation-delay:.2s; }
+  @keyframes rise{ to{ opacity:1; transform:none; } }
+
+  /* ============ SECTION HEADERS ============ */
+  .section-head{ max-width:640px; margin-bottom:52px; }
+  .section-head.center{ margin-left:auto; margin-right:auto; text-align:center; }
+  .section-head h2{ font-size:clamp(1.9rem, 2vw + 1.2rem, 2.7rem); color:var(--ink); }
+  .section-head p{ color:var(--ink-soft); font-size:1.08rem; }
+  .section-head.on-dark h2{ color:var(--white); }
+  .section-head.on-dark p{ color:rgba(255,255,255,0.72); }
+
+  /* ============ HELP CARDS ============ */
+  .help-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:2px;
+    background:var(--navy-line);
+    border:1px solid var(--navy-line);
+    border-radius:var(--radius-l);
+    overflow:hidden;
+  }
+  .help-card{
+    background:var(--navy-950);
+    padding:34px 28px;
+    color:var(--white);
+    transition:background-color .2s ease;
+  }
+  .help-card:hover{ background:var(--navy-900); }
+  .help-icon{
+    width:44px; height:44px;
+    border-radius:12px;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(226,104,91,0.15);
+    color:var(--rose);
+    margin-bottom:18px;
+  }
+  .help-icon svg{ width:22px; height:22px; }
+  .help-card h3{ font-size:1.15rem; color:var(--white); margin-bottom:8px; }
+  .help-card p{ color:rgba(255,255,255,0.68); font-size:0.95rem; margin:0; }
+  .help-section{ background:var(--navy-950); }
+  @media (max-width:860px){ .help-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:560px){ .help-grid{ grid-template-columns:1fr; } }
+
+  /* ============ WORKSHOP ============ */
+  .workshop{
+    background: linear-gradient(180deg, var(--navy-900), var(--navy-950));
+    color:var(--white);
+  }
+  .workshop-badge{
+    display:inline-flex; align-items:center; gap:8px;
+    background:rgba(226,104,91,0.16);
+    color:var(--blush);
+    border:1px solid rgba(226,104,91,0.35);
+    padding:7px 16px;
+    border-radius:999px;
+    font-size:0.85rem;
+    font-weight:600;
+    margin-bottom:22px;
+  }
+  .workshop-badge .pulse{
+    width:7px; height:7px; border-radius:50%;
+    background:var(--rose);
+    box-shadow:0 0 0 0 rgba(226,104,91,0.6);
+    animation:pulse 2s infinite;
+  }
+  @keyframes pulse{
+    0%{ box-shadow:0 0 0 0 rgba(226,104,91,0.55); }
+    70%{ box-shadow:0 0 0 9px rgba(226,104,91,0); }
+    100%{ box-shadow:0 0 0 0 rgba(226,104,91,0); }
+  }
+  .workshop-head h2{ font-size:clamp(2rem, 2.4vw + 1.2rem, 3.1rem); max-width:16ch; color:var(--white); }
+  .workshop-head .lede{ color:rgba(255,255,255,0.75); font-size:1.1rem; max-width:56ch; }
+
+  .workshop-body{
+    display:grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap:44px;
+    margin-top:48px;
+    align-items:start;
+  }
+  .curriculum-list{ list-style:none; margin:0 0 36px; padding:0; display:grid; gap:16px; }
+  .curriculum-list li{
+    display:flex; gap:14px; align-items:flex-start;
+    font-size:1rem; color:rgba(255,255,255,0.88);
+  }
+  .curriculum-list .check{
+    flex-shrink:0; width:22px; height:22px; border-radius:50%;
+    background:rgba(226,104,91,0.18);
+    color:var(--rose);
+    display:flex; align-items:center; justify-content:center;
+    margin-top:2px;
+  }
+  .curriculum-list .check svg{ width:12px; height:12px; }
+
+  .detail-chips{ display:flex; flex-wrap:wrap; gap:10px; }
+  .chip{
+    display:flex; align-items:center; gap:8px;
+    background:rgba(255,255,255,0.06);
+    border:1px solid var(--navy-line);
+    padding:9px 14px;
+    border-radius:999px;
+    font-size:0.87rem;
+    color:rgba(255,255,255,0.85);
+  }
+  .chip svg{ width:15px; height:15px; color:var(--rose); }
+
+  .price-card{
+    background:var(--white);
+    color:var(--ink);
+    border-radius:var(--radius-l);
+    padding:34px 30px;
+    position:sticky;
+    top:100px;
+    box-shadow:0 30px 60px -24px rgba(6,9,20,0.55);
+  }
+  .price-card .label{ font-size:0.92rem; color:var(--ink-soft); margin-bottom:6px; }
+  .price-card .amount{
+    font-family:var(--font-display);
+    font-size:3rem;
+    line-height:1;
+    margin-bottom:4px;
+  }
+  .price-card .amount span{ font-size:1.1rem; font-weight:500; color:var(--ink-soft); }
+  .price-card .subnote{ font-size:0.88rem; color:var(--ink-soft); margin-bottom:22px; }
+  .price-card hr{ border:none; border-top:1px solid rgba(28,35,64,0.1); margin:22px 0; }
+  .price-card ul{ list-style:none; padding:0; margin:0 0 24px; display:grid; gap:10px; }
+  .price-card ul li{ font-size:0.92rem; display:flex; gap:9px; align-items:flex-start; color:var(--ink-soft); }
+  .price-card ul li svg{ width:15px; height:15px; color:var(--rose); flex-shrink:0; margin-top:3px; }
+  .price-reassure{ text-align:center; font-size:0.85rem; color:var(--ink-soft); margin-top:14px; }
+
+  @media (max-width:860px){
+    .workshop-body{ grid-template-columns:1fr; }
+    .price-card{ position:static; }
+  }
+
+  /* ============ WHATSAPP STRIP ============ */
+  .wa-strip{
+    background:var(--rose-tint);
+    padding:40px 0;
+  }
+  .wa-strip .wrap{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:24px; flex-wrap:wrap;
+  }
+  .wa-strip h3{ font-size:1.3rem; margin:0 0 4px; color:var(--ink); }
+  .wa-strip p{ margin:0; color:var(--ink-soft); }
+
+  /* ============ ABOUT ============ */
+  .about .wrap{
+    display:grid;
+    grid-template-columns:0.85fr 1.15fr;
+    gap:64px;
+    align-items:center;
+  }
+  .about-visual{
+    background:linear-gradient(160deg, var(--blush), var(--ivory-dim));
+    border-radius:var(--radius-l);
+    padding:34px;
+    position:relative;
+  }
+  .about-visual svg{ width:100%; height:auto; }
+  .about-caption{
+    text-align:center;
+    font-size:0.82rem;
+    color:var(--ink-soft);
+    margin-top:14px;
+    font-style:italic;
+  }
+  .about h2{ font-size:clamp(1.9rem, 2.2vw + 1.1rem, 2.6rem); max-width:14ch; }
+  .about p{ color:var(--ink-soft); font-size:1.05rem; }
+  .about-list{ list-style:none; margin:26px 0 0; padding:0; display:grid; gap:14px; }
+  .about-list li{ display:flex; gap:12px; align-items:flex-start; }
+  .about-list .check{
+    flex-shrink:0; width:22px; height:22px; border-radius:50%;
+    background:var(--blush); color:var(--rose-deep);
+    display:flex; align-items:center; justify-content:center; margin-top:1px;
+  }
+  .about-list .check svg{ width:12px; height:12px; }
+  @media (max-width:900px){ .about .wrap{ grid-template-columns:1fr; } }
+
+  /* ============ TESTIMONIALS ============ */
+  .testimonials{ background:var(--navy-950); color:var(--white); }
+  .testi-note{
+    font-size:0.85rem; color:rgba(255,255,255,0.55);
+    margin-bottom:36px;
+    padding:10px 16px;
+    border:1px dashed rgba(255,255,255,0.25);
+    border-radius:10px;
+    display:inline-block;
+  }
+  .testi-grid{
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:22px;
+  }
+  .testi-card{
+    background:var(--navy-900);
+    border:1px solid var(--navy-line);
+    border-radius:var(--radius-m);
+    padding:28px 26px;
+  }
+  .testi-quote-mark{
+    font-family:var(--font-display);
+    font-size:2.6rem;
+    line-height:1;
+    color:var(--rose);
+    display:block;
+    margin-bottom:6px;
+  }
+  .stars{ color:var(--rose); letter-spacing:2px; font-size:0.9rem; margin-bottom:12px; }
+  .testi-card p{ color:rgba(255,255,255,0.82); font-size:0.98rem; }
+  .testi-name{ font-size:0.88rem; color:rgba(255,255,255,0.55); margin:0; }
+  @media (max-width:860px){
+    .testi-grid{ grid-template-columns:1fr; }
+  }
+
+  /* ============ FAQ ============ */
+  .faq{ background:var(--ivory); }
+  .faq-list{ max-width:760px; margin:0 auto; display:grid; gap:12px; }
+  .faq-item{
+    background:var(--white);
+    border:1px solid rgba(28,35,64,0.10);
+    border-radius:var(--radius-s);
+    overflow:hidden;
+  }
+  .faq-item summary{
+    list-style:none;
+    display:flex; align-items:center; justify-content:space-between;
+    gap:16px;
+    padding:20px 22px;
+    font-weight:600;
+    font-size:1.02rem;
+  }
+  .faq-item summary::-webkit-details-marker{ display:none; }
+  .faq-chevron{ flex-shrink:0; width:20px; height:20px; transition:transform .22s ease; color:var(--rose); }
+  .faq-item[open] .faq-chevron{ transform:rotate(180deg); }
+  .faq-answer{ padding:0 22px 22px; color:var(--ink-soft); font-size:0.98rem; }
+
+  /* ============ FINAL CTA ============ */
+  .final-cta{
+    background:
+      radial-gradient(640px 360px at 20% 10%, rgba(226,104,91,0.24), transparent 60%),
+      linear-gradient(180deg, var(--navy-950), #0a0f20);
+    color:var(--white);
+    text-align:center;
+  }
+  .final-cta h2{
+    font-size:clamp(2rem, 3vw + 1.2rem, 3.2rem);
+    max-width:16ch; margin:0 auto 18px;
+  }
+  .final-cta .lede{ max-width:48ch; margin:0 auto 36px; color:rgba(255,255,255,0.75); font-size:1.08rem; }
+  .final-cta-ctas{ display:flex; justify-content:center; gap:16px; flex-wrap:wrap; }
+
+  /* ============ FOOTER ============ */
+  footer{ background:var(--navy-950); color:rgba(255,255,255,0.7); padding:64px 0 30px; }
+  .footer-grid{
+    display:grid;
+    grid-template-columns: 1.4fr repeat(3, 1fr);
+    gap:36px;
+    padding-bottom:40px;
+    border-bottom:1px solid var(--navy-line);
+  }
+  .footer-brand .brand{ margin-bottom:14px; }
+  .footer-brand p{ font-size:0.92rem; max-width:32ch; color:rgba(255,255,255,0.55); }
+  .footer-col h4{
+    font-family:var(--font-body);
+    font-size:0.88rem;
+    color:#fff;
+    margin-bottom:14px;
+    font-weight:600;
+  }
+  .footer-col ul{ list-style:none; padding:0; margin:0; display:grid; gap:10px; }
+  .footer-col a{ text-decoration:none; font-size:0.92rem; color:rgba(255,255,255,0.65); transition:color .15s; }
+  .footer-col a:hover{ color:#fff; }
+  .footer-bottom{
+    display:flex; justify-content:space-between; align-items:flex-start;
+    gap:20px; flex-wrap:wrap;
+    padding-top:26px;
+  }
+  .footer-disclaimer{ font-size:0.82rem; color:rgba(255,255,255,0.45); max-width:62ch; }
+  .footer-copyright{ font-size:0.82rem; color:rgba(255,255,255,0.45); white-space:nowrap; }
+  @media (max-width:820px){ .footer-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:520px){ .footer-grid{ grid-template-columns:1fr; } }
+
+  /* ============ STICKY MOBILE CTA ============ */
+  .mobile-sticky{
+    display:none;
+    position:fixed; left:0; right:0; bottom:0; z-index:70;
+    padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+    background:rgba(12,18,36,0.94);
+    backdrop-filter:blur(10px);
+    border-top:1px solid var(--navy-line);
+  }
+  .mobile-sticky .btn{ width:100%; }
+  @media (max-width:720px){
+    .mobile-sticky{ display:block; }
+    body{ padding-bottom:78px; }
+  }
+
+  /* ============ MODAL (registration / confirmation) ============ */
+  .modal-overlay{
+    position:fixed; inset:0; z-index:100;
+    background:rgba(10,14,28,0.62);
+    display:none;
+    align-items:center; justify-content:center;
+    padding:20px;
+  }
+  .modal-overlay.open{ display:flex; }
+  .modal{
+    background:var(--white);
+    color:var(--ink);
+    max-width:440px; width:100%;
+    border-radius:var(--radius-l);
+    padding:34px 30px;
+    position:relative;
+    max-height:88vh;
+    overflow-y:auto;
+  }
+  .modal-close{
+    position:absolute; top:18px; right:18px;
+    background:rgba(28,35,64,0.06);
+    border:none; width:34px; height:34px;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    color:var(--ink);
+  }
+  .modal-close:hover{ background:rgba(28,35,64,0.12); }
+  .modal h3{ font-size:1.4rem; margin-bottom:8px; padding-right:30px; }
+  .modal p{ color:var(--ink-soft); font-size:0.95rem; }
+  .modal-price-row{
+    display:flex; align-items:baseline; justify-content:space-between;
+    background:var(--ivory); border-radius:var(--radius-s);
+    padding:16px 18px; margin:20px 0;
+  }
+  .modal-price-row .amount{ font-family:var(--font-display); font-size:1.6rem; }
+  .modal-field{ margin-bottom:14px; }
+  .modal-field label{ display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; }
+  .modal-field input{
+    width:100%; padding:12px 14px;
+    border:1.5px solid rgba(28,35,64,0.15);
+    border-radius:var(--radius-s);
+    font-size:16px; font-family:inherit;
+  }
+  .modal-field input:focus{ outline:none; border-color:var(--rose); }
+  .modal-note{ font-size:0.78rem; color:var(--ink-soft); margin-top:14px; text-align:center; }
+
+  .confirm-icon{
+    width:56px; height:56px; border-radius:50%;
+    background:var(--rose-tint); color:var(--rose-deep);
+    display:flex; align-items:center; justify-content:center;
+    margin-bottom:18px;
+  }
+  .confirm-icon svg{ width:26px; height:26px; }
+  .confirm-steps{ list-style:none; padding:0; margin:18px 0; display:grid; gap:10px; }
+  .confirm-steps li{
+    font-size:0.92rem; color:var(--ink-soft);
+    padding-left:22px; position:relative;
+  }
+  .confirm-steps li::before{
+    content:"—"; position:absolute; left:0; color:var(--rose);
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav class="nav">
+  <div class="wrap">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#help" onclick="closeMobileNav()">How we help</a></li>
+      <li><a href="#workshop" onclick="closeMobileNav()">Workshop</a></li>
+      <li><a href="#stories" onclick="closeMobileNav()">Stories</a></li>
+      <li><a href="#faq" onclick="closeMobileNav()">FAQ</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-ghost-dark" href="#" onclick="openWhatsApp('general'); return false;">Chat on WhatsApp</a>
+      <a class="btn btn-primary" href="#" onclick="openRegistration(); return false;">Join for ₹99</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <svg id="navToggleIcon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-nav-panel" id="mobileNavPanel">
+    <ul class="mobile-nav-links">
+      <li><a href="#help" onclick="closeMobileNav()">How we help</a></li>
+      <li><a href="#workshop" onclick="closeMobileNav()">Workshop</a></li>
+      <li><a href="#stories" onclick="closeMobileNav()">Stories</a></li>
+      <li><a href="#faq" onclick="closeMobileNav()">FAQ</a></li>
+    </ul>
+    <div class="mobile-nav-ctas">
+      <a class="btn btn-ghost-dark btn-block" href="#" onclick="closeMobileNav(); openWhatsApp('general'); return false;">Chat on WhatsApp</a>
+      <a class="btn btn-primary btn-block" href="#" onclick="closeMobileNav(); openRegistration(); return false;">Join for ₹99</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="hero-eyebrow"><span class="dot"></span>Relationship &amp; confidence coaching</span>
+      <h1>Every connection starts with a spark. We teach you what to do after.</h1>
+      <p class="lede">Learn the psychology of attraction, communication and healthy relationships — and become more confident in your dating life.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#" onclick="openRegistration(); return false;">Join the ₹99 workshop</a>
+        <a class="btn btn-ghost-dark" href="#" onclick="openWhatsApp('general'); return false;">Talk to us on WhatsApp</a>
+      </div>
+      <div class="hero-points">
+        <span class="hero-point"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Confidence over tricks</span>
+        <span class="hero-point"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>No manipulation tactics</span>
+        <span class="hero-point"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Practical, not theoretical</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-illustration">
+        <!-- abstract conversation motif -->
+        <svg viewBox="0 0 420 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of two overlapping circles representing a conversation">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#E2685B"/>
+              <stop offset="1" stop-color="#c34e42"/>
+            </linearGradient>
+            <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0" stop-color="#2c3a68"/>
+              <stop offset="1" stop-color="#3d4d85"/>
+            </linearGradient>
+          </defs>
+          <circle cx="160" cy="150" r="112" fill="url(#g2)" opacity="0.9"/>
+          <circle cx="272" cy="210" r="86" fill="url(#g1)" opacity="0.92"/>
+          <path d="M110 150c0-30 24-54 54-54s54 24 54 54-24 54-54 54c-9 0-18-2-25-6l-24 10 6-24c-3-8-5-17-5-27z" fill="#fff" opacity="0.9"/>
+          <path d="M232 220c0-20 17-38 38-38s38 17 38 38-17 38-38 38c-6 0-12-1-17-4l-17 7 4-17c-4-6-6-13-6-24z" fill="#fff" opacity="0.55"/>
+          <circle cx="135" cy="150" r="5" fill="#2c3a68"/>
+          <circle cx="160" cy="150" r="5" fill="#2c3a68"/>
+          <circle cx="185" cy="150" r="5" fill="#2c3a68"/>
+        </svg>
+      </div>
+      <div class="hero-float-card">
+        <span class="k">Confidence-first approach</span>
+        <span class="v">Communication and psychology, explained in plain language — not pickup lines.</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= WHAT WE HELP WITH ================= -->
+<section class="help-section" id="help">
+  <div class="wrap">
+    <div class="section-head on-dark">
+      <h2>What we help you with</h2>
+      <p>Six areas that shape how relationships actually work — the parts most people never get taught.</p>
+    </div>
+    <div class="help-grid">
+      <div class="help-card">
+        <div class="help-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7.5-4.6-10-9.3C.4 8 2 4.5 5.4 3.8c2-.4 4 .5 5 2.2 1-1.7 3-2.6 5-2.2 3.4.7 5 4.2 3.4 7.9C19.5 16.4 12 21 12 21z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3>Understanding attraction</h3>
+        <p>What actually draws people together — beyond looks, lines, or luck.</p>
+      </div>
+      <div class="help-card">
+        <div class="help-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16v11H8l-4 4V5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3>Better communication</h3>
+        <p>Say what you mean, hear what's meant, and stop guessing where you stand.</p>
+      </div>
+      <div class="help-card">
+        <div class="help-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M9 18a3 3 0 003-3V8a4 4 0 10-8 0v3M15 18a3 3 0 01-3-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M9 8a3 3 0 016 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3>Relationship psychology</h3>
+        <p>The patterns behind attachment, trust and conflict — and how to work with them.</p>
+      </div>
+      <div class="help-card">
+        <div class="help-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c2 3-2 4-2 7a4 4 0 108 0c0-1-1-2-1-2 1 4-1 5-2 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 21c0-3 2-5 4-5s4 2 4 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3>Building confidence</h3>
+        <p>Steady self-assurance that holds up in real conversations, not just in your head.</p>
+      </div>
+      <div class="help-card">
+        <div class="help-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="12" r="5" stroke="currentColor" stroke-width="1.6"/><circle cx="15" cy="12" r="5" stroke="currentColor" stroke-width="1.6"/></svg></div>
+        <h3>Creating healthy connections</h3>
+        <p>Move from surface-level interest to a bond that can actually last.</p>
+      </div>
+      <div class="help-card">
+        <div class="help-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3>Avoiding common mistakes</h3>
+        <p>The habits — overexplaining, overgiving, overthinking — that quietly push people away.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED WORKSHOP ================= -->
+<section class="workshop" id="workshop">
+  <div class="wrap">
+    <div class="workshop-head">
+      <span class="workshop-badge"><span class="pulse"></span>Live online workshop</span>
+      <h2>How to stop getting friend-zoned</h2>
+      <p class="lede">Learn how to communicate your interest confidently, create genuine attraction and avoid the common mistakes that keep people stuck in the friend zone.</p>
+    </div>
+
+    <div class="workshop-body">
+      <div>
+        <div class="detail-chips" style="margin-bottom:34px;">
+          <span class="chip"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.6"/><path d="M10 6v4l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Live online session</span>
+          <span class="chip"><svg viewBox="0 0 20 20" fill="none"><rect x="4" y="3" width="12" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 6h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Attend from phone or laptop</span>
+          <span class="chip"><svg viewBox="0 0 20 20" fill="none"><path d="M4 15l4-4 3 3 5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Practical strategies</span>
+        </div>
+
+        <h3 style="color:#fff; font-size:1.1rem; font-weight:600; font-family:var(--font-body); margin-bottom:18px;">What you'll learn</h3>
+        <ul class="curriculum-list">
+          <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Why people sometimes get stuck in the friend zone</li>
+          <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>How to communicate romantic interest clearly</li>
+          <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>How to feel more confident talking to someone you like</li>
+          <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Common mistakes that quietly reduce attraction</li>
+          <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>How to set healthy boundaries</li>
+          <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>How to avoid being overly available</li>
+          <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>How to handle rejection with maturity</li>
+          <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>How to build genuine connection, not manipulation</li>
+        </ul>
+      </div>
+
+      <div class="price-card">
+        <div class="label">Workshop fee</div>
+        <div class="amount">₹99 <span>only</span></div>
+        <div class="subnote" id="workshop-schedule-note">Next live session — details shared on registration</div>
+        <a class="btn btn-primary btn-block" href="#" onclick="openRegistration(); return false;">Join workshop for ₹99</a>
+        <hr>
+        <ul>
+          <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Live, interactive online session</li>
+          <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Works on any phone or laptop</li>
+          <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>WhatsApp support after you join</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="price-reassure">One small investment. Practical lessons you can apply immediately.</p>
+  </div>
+</section>
+
+<!-- ================= WHATSAPP STRIP ================= -->
+<section class="wa-strip">
+  <div class="wrap">
+    <div>
+      <h3>Have questions before you join?</h3>
+      <p>Message us directly and we'll walk you through it.</p>
+    </div>
+    <a class="btn btn-whatsapp" href="#" onclick="openWhatsApp('general'); return false;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5 0-.1-.6-1.5-.9-2-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.2 2.9c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2z"/></svg>
+      Chat with us on WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about">
+  <div class="wrap">
+    <div class="about-visual">
+      <svg viewBox="0 0 300 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrated placeholder for a coach photograph">
+        <circle cx="150" cy="120" r="70" fill="#e2685b" opacity="0.18"/>
+        <circle cx="150" cy="105" r="42" fill="#c34e42" opacity="0.85"/>
+        <path d="M85 250c8-46 40-70 65-70s57 24 65 70" stroke="#c34e42" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.85"/>
+      </svg>
+      <p class="about-caption">Coach photo placeholder — replace with a real professional portrait.</p>
+    </div>
+    <div>
+      <h2>Relationships become better when you understand them better.</h2>
+      <p>Most advice about dating and relationships falls into two camps: vague platitudes, or manipulative "tricks" that treat people like puzzles to be solved. This platform is built on a different idea — that confidence, clear communication and emotional intelligence are skills anyone can learn, and that understanding another person is always the better strategy than trying to outsmart them.</p>
+      <p>Every session is grounded in psychology, not gimmicks — so what you learn holds up in real conversations, not just in theory.</p>
+      <ul class="about-list">
+        <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Grounded in relationship psychology, not pickup-artist scripts</li>
+        <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Built for both men and women, ages 18–40</li>
+        <li><span class="check"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Focused on confidence and genuine connection, not outcomes you can't control</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials" id="stories">
+  <div class="wrap">
+    <div class="section-head on-dark">
+      <h2>What participants say</h2>
+      <p>Example testimonials shown for illustration — replace with real participant feedback before launch.</p>
+    </div>
+    <span class="testi-note">⚠ Placeholder testimonials — not from real participants yet</span>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <span class="testi-quote-mark">&ldquo;</span>
+        <div class="stars">★★★★★</div>
+        <p>I finally understood why I was struggling to express my feelings. The workshop gave me practical ways to communicate better.</p>
+        <p class="testi-name">— Rahul, Kolkata (example)</p>
+      </div>
+      <div class="testi-card">
+        <span class="testi-quote-mark">&ldquo;</span>
+        <div class="stars">★★★★★</div>
+        <p>Simple, practical and easy to understand. I especially liked the section on setting boundaries without feeling guilty.</p>
+        <p class="testi-name">— Anonymous participant (example)</p>
+      </div>
+      <div class="testi-card">
+        <span class="testi-quote-mark">&ldquo;</span>
+        <div class="stars">★★★★★</div>
+        <p>I've read a lot of dating advice that felt gross. This was the first time it felt respectful — for both sides.</p>
+        <p class="testi-name">— Priya, Pune (example)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="section-head center">
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Is the workshop really only ₹99?<svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="faq-answer">Yes. The workshop fee is ₹99 for the full live session — there's no hidden charge to attend.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Is this workshop conducted online?<svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="faq-answer">Yes, it's fully online. You'll receive a link to join from your phone or laptop — no travel required.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Who should attend this workshop?<svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="faq-answer">Anyone aged 18–40 who wants to communicate their feelings more clearly and feel more confident in dating or relationships — regardless of gender.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Will I learn how to manipulate someone into liking me?<svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="faq-answer">No. The workshop focuses on confidence, communication, understanding attraction and building genuine connection — not manipulation or pressure tactics.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I attend from my phone?<svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="faq-answer">Yes, the session works on any smartphone, tablet or laptop with an internet connection.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How will I receive the workshop details?<svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="faq-answer">After registering, you'll get the session link and reminders by email and WhatsApp.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What happens after I register?<svg class="faq-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="faq-answer">You'll see a confirmation with the session details, plus a WhatsApp link if you have any questions before it starts.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="final-cta">
+  <div class="wrap">
+    <h2>Your relationship life can change when your understanding changes.</h2>
+    <p class="lede">Take the first step toward becoming more confident in how you connect with people.</p>
+    <div class="final-cta-ctas">
+      <a class="btn btn-primary" href="#" onclick="openRegistration(); return false;">Join the ₹99 workshop</a>
+      <a class="btn btn-ghost-dark" href="#" onclick="openWhatsApp('general'); return false;">Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p style="color:rgba(255,255,255,0.75); font-size:1.05rem; font-family:var(--font-display); margin-bottom:10px;">Relationship &amp; confidence coaching</p>
+        <p>Education for confidence, communication and healthier connections.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#help">About</a></li>
+          <li><a href="#workshop">Workshop</a></li>
+          <li><a href="#faq">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#" onclick="openWhatsApp('general'); return false;">WhatsApp</a></li>
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms &amp; conditions</a></li>
+          <li><a href="#">Refund policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-disclaimer">This platform provides relationship education and self-development content. Results vary from person to person. We do not guarantee romantic outcomes.</p>
+      <p class="footer-copyright">© 2026. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= STICKY MOBILE CTA ================= -->
+<div class="mobile-sticky">
+  <a class="btn btn-primary" href="#" onclick="openRegistration(); return false;">Join workshop ₹99</a>
+</div>
+
+<!-- ================= REGISTRATION MODAL ================= -->
+<div class="modal-overlay" id="registerModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModals()" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <h3>Join &ldquo;How to Stop Getting Friend-Zoned&rdquo;</h3>
+    <p>Reserve your spot in the next live online session.</p>
+    <div class="modal-price-row">
+      <span>Workshop fee</span>
+      <span class="amount">₹99</span>
+    </div>
+    <form onsubmit="submitRegistration(event)">
+      <div class="modal-field">
+        <label for="reg-name">Your name</label>
+        <input id="reg-name" type="text" required placeholder="Full name">
+      </div>
+      <div class="modal-field">
+        <label for="reg-phone">Phone number</label>
+        <input id="reg-phone" type="tel" required placeholder="10-digit mobile number">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block" id="pay-btn">Pay ₹99 &amp; reserve my spot</button>
+    </form>
+    <p class="modal-note">Secure payment via Razorpay. Your card/UPI details never touch this site.</p>
+  </div>
+</div>
+
+<!-- ================= CONFIRMATION MODAL ================= -->
+<div class="modal-overlay" id="confirmModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModals()" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <div class="confirm-icon">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <h3>You're registered!</h3>
+    <p>Thanks, <span id="confirm-name">friend</span> — your spot for <strong>How to Stop Getting Friend-Zoned</strong> is confirmed.</p>
+    <ul class="confirm-steps">
+      <li>Session link will be sent to your phone shortly</li>
+      <li>Join 5 minutes early from your phone or laptop</li>
+      <li>Message us on WhatsApp if you don't receive it</li>
+    </ul>
+    <a class="btn btn-whatsapp btn-block" href="#" onclick="openWhatsApp('confirmed'); return false;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5 0-.1-.6-1.5-.9-2-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.2 2.9c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2z"/></svg>
+      Get support on WhatsApp
+    </a>
+  </div>
+</div>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+  /* =========================================================
+     CENTRAL CONFIGURATION — edit everything here
+     ========================================================= */
+  const CONFIG = {
+    whatsappNumber: "918777080045", // <-- replace with your number, country code + number, no + or spaces
+    whatsappMessages: {
+      general: "Hi, I want to know more about the ₹99 How to Stop Getting Friend-Zoned workshop.",
+      confirmed: "Hi, I just registered for the ₹99 workshop and have a question."
+    },
+    workshopDate: "Details shared after registration", // <-- e.g. "Sat, 20 Sep · 7:00 PM IST"
+
+    /* ---------------- RAZORPAY ----------------
+       These now point at the Express backend in server.js — nothing
+       secret lives in this file. The Key ID is fetched from
+       GET /api/key, orders are created via POST /api/create-order,
+       and payments are verified via POST /api/verify-payment.
+       -------------------------------------------- */
+    createOrderEndpoint: "/api/create-order",
+    keyEndpoint: "/api/key",
+    verifyEndpoint: "/api/verify-payment",
+    currency: "INR"
+  };
+
+  let cachedRazorpayKey = null;
+  async function getRazorpayKey(){
+    if (cachedRazorpayKey) return cachedRazorpayKey;
+    const res = await fetch(CONFIG.keyEndpoint);
+    if (!res.ok) throw new Error("Could not load payment configuration.");
+    const data = await res.json();
+    cachedRazorpayKey = data.key_id;
+    return cachedRazorpayKey;
+  }
+
+  function toggleMobileNav(){
+    const panel = document.getElementById("mobileNavPanel");
+    const toggle = document.getElementById("navToggle");
+    const isOpen = panel.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    document.getElementById("navToggleIcon").innerHTML = isOpen
+      ? '<path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>'
+      : '<path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>';
+  }
+
+  function closeMobileNav(){
+    document.getElementById("mobileNavPanel").classList.remove("open");
+    document.getElementById("navToggle").setAttribute("aria-expanded", "false");
+    document.getElementById("navToggleIcon").innerHTML = '<path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>';
+  }
+
+  window.addEventListener("resize", function(){
+    if(window.innerWidth > 900) closeMobileNav();
+  });
+
+  function buildWhatsAppLink(key){
+    const msg = CONFIG.whatsappMessages[key] || CONFIG.whatsappMessages.general;
+    return "https://wa.me/" + CONFIG.whatsappNumber + "?text=" + encodeURIComponent(msg);
+  }
+
+  function openWhatsApp(key){
+    window.open(buildWhatsAppLink(key), "_blank", "noopener");
+  }
+
+  function openRegistration(){
+    document.getElementById("registerModal").classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModals(){
+    document.getElementById("registerModal").classList.remove("open");
+    document.getElementById("confirmModal").classList.remove("open");
+    document.body.style.overflow = "";
+  }
+
+  async function submitRegistration(e){
+    e.preventDefault();
+    const name = document.getElementById("reg-name").value.trim();
+    const phone = document.getElementById("reg-phone").value.trim();
+    const payBtn = document.getElementById("pay-btn");
+    payBtn.disabled = true;
+    payBtn.textContent = "Preparing payment…";
+
+    let order, keyId;
+    try {
+      const [orderRes, key] = await Promise.all([
+        fetch(CONFIG.createOrderEndpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, phone })
+        }),
+        getRazorpayKey()
+      ]);
+      if (!orderRes.ok) {
+        const errBody = await orderRes.json().catch(() => ({}));
+        throw new Error(errBody.error || "Could not start payment.");
+      }
+      order = await orderRes.json();
+      keyId = key;
+    } catch (err) {
+      console.error("Could not create Razorpay order:", err);
+      alert("Something went wrong starting the payment. Please try again or message us on WhatsApp.");
+      payBtn.disabled = false;
+      payBtn.textContent = "Pay ₹99 & reserve my spot";
+      return;
+    }
+
+    document.getElementById("registerModal").classList.remove("open");
+    payBtn.disabled = false;
+    payBtn.textContent = "Pay ₹99 & reserve my spot";
+
+    if (typeof Razorpay === "undefined") {
+      alert("Payment could not load. Please check your connection and try again.");
+      document.getElementById("registerModal").classList.add("open");
+      return;
+    }
+
+    const options = {
+      key: keyId,
+      amount: order.amount,
+      currency: order.currency,
+      order_id: order.order_id,
+      name: "Relationship Coaching Workshop",
+      description: "How to Stop Getting Friend-Zoned — Workshop",
+      prefill: { name: name, contact: phone },
+      theme: { color: "#e2685b" },
+      handler: async function (response) {
+        // Never trust a successful checkout on its own — verify the
+        // signature server-side before treating the booking as paid.
+        try {
+          const verifyRes = await fetch(CONFIG.verifyEndpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              razorpay_order_id: response.razorpay_order_id,
+              razorpay_payment_id: response.razorpay_payment_id,
+              razorpay_signature: response.razorpay_signature
+            })
+          });
+          const verifyData = await verifyRes.json();
+          if (verifyRes.ok && verifyData.success) {
+            showConfirmation(name);
+          } else {
+            alert(
+              "We couldn't verify your payment. If money was deducted, message us on WhatsApp with this payment ID: " +
+              response.razorpay_payment_id
+            );
+          }
+        } catch (err) {
+          console.error("Verification request failed:", err);
+          alert(
+            "We couldn't confirm your payment right now. Please message us on WhatsApp with this payment ID: " +
+            response.razorpay_payment_id
+          );
+        }
+      },
+      modal: {
+        ondismiss: function () {
+          // User closed the checkout modal without paying.
+          document.getElementById("registerModal").classList.add("open");
+        }
+      }
+    };
+
+    const rzp = new Razorpay(options);
+    rzp.on("payment.failed", function (response) {
+      alert("Payment failed: " + response.error.description + "\nPlease try again or message us on WhatsApp.");
+      document.getElementById("registerModal").classList.add("open");
+    });
+    rzp.open();
+  }
+
+  function showConfirmation(name){
+    document.getElementById("confirm-name").textContent = name || "friend";
+    document.getElementById("confirmModal").classList.add("open");
+  }
+
+  document.getElementById("workshop-schedule-note").textContent = CONFIG.workshopDate;
+
+  // close modal on overlay click
+  document.querySelectorAll(".modal-overlay").forEach(function(overlay){
+    overlay.addEventListener("click", function(e){
+      if(e.target === overlay) closeModals();
+    });
+  });
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape") closeModals();
+  });
+</script>
+
+</body>
+</html>

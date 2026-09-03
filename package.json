@@ -1,0 +1,15 @@
+{
+  "name": "relationship-coaching-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Relationship coaching landing page with Razorpay Standard Checkout",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "razorpay": "^2.9.4"
+  }
+}
